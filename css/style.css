@@ -35,3 +35,9 @@ body{
   margin-right: -24px;
   text-transform: uppercase;
 }
+.content .details{
+  margin: 25px 0 20px;
+}
+.detais p{
+  font-size: 18px;
+}
