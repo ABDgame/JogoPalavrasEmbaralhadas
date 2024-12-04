@@ -62,6 +62,8 @@ body{
 .buttons button{
   border: none;
   outline: none;
+  color: #fff;
+  cursor: pointer;
   padding: 15px 0;
   font-size: 17px;
   border-radius: 5px;
