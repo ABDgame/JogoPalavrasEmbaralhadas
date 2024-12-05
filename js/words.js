@@ -62,5 +62,80 @@ const words = [
   {
     word: "CABIDE",
   },
+  {
+    word: "CAIXA",
+  },
+  {
+    word: "CAMELO",
+  },
+  {
+    word: "CAMA",
+  },
+  {
+    word: "CAJU",
+  },
+  {
+    word: "COPO",
+  },
+  {
+    word: "CADEADO",
+  },
+  {
+    word: "CORAÇÃO",
+  },
+  {
+    word: "DAMA",
+  },
+  {
+    word: "DINHEIRO",
+  },
+  {
+    word: "DIAMANTE",
+  },
+  {
+    word: "DRAGÃO",
+  },
+  {
+    word: "DOCE",
+  },
+  {
+    word: "DEDO",
+  },
+  {
+    word: "DENTE",
+  },
+  {
+    word: "DADO",
+  },
+  {
+    word: "DEDAL",
+  },
+  {
+    word: "EMA",
+  },
+  {
+    word: "ESCOVA",
+  },
+  {
+    word: "ESCAMA",
+  },
+  {
+    word: "ESTRELA",
+  },
+  {
+    word: "ELEFANTE",
+  },
+  {
+    word: "ESMALTE",
+  },
+  {
+    word: "ENXADA",
+  },
+  {
+    word: "ESCADA"
+  },
+  {
+    word: "ESCOLA"
+  }
   
 ]
