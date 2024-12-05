@@ -41,4 +41,26 @@ const words = [
   {
     word: "BOCA",
   },
+  {
+    word: "BORBOLETA",
+  },
+  {
+    word: "BALA",
+  },
+  {
+    word: "BONECA",
+  },
+  {
+    word: "BATATA",
+  },
+  {
+    word: "BOLO",
+  },
+  {
+    word: "BALEIA",
+  },
+  {
+    word: "CABIDE",
+  },
+  
 ]
