@@ -6,6 +6,6 @@ const initGame = () = > {
       // shuffling and swiping wordArray letters randomly
       [wordArray[i], wordArray[j]] = [wordArray[j], wordArray[i]]
   }
-console.log(wordArray);
+  console.log(wordArray);
 }
 initGame();
