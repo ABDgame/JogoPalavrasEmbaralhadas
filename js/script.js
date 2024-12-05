@@ -1,3 +1,3 @@
 const initGame = () = > {
-  let randomObj = words
+  let randomObj = words[Math.floor(Math.random() * words.length)];
 }
