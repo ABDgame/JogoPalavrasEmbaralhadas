@@ -8,10 +8,11 @@ checkBtn = document.querySelector(".check-word");
 let correctWord, timer;
 
 const initTimer = maxTime => {
+  clearInterval(timer);
   timer = setInterval(() => {
     if(maxTime > 0){
         maxTime--; // decrement maxTime by -1
-        timeText.innerText = maxTime;   
+        return timeText.innerText = maxTime;   
     }
     clearInterval(timer);
     alert('Faltam! $(userWord.toUpperCase()) para digitar a palavra');
@@ -19,6 +20,7 @@ const initTimer = maxTime => {
   }, 1000);
   
 }
+
 const initGame = () => {
   initTimer(30); // calling initTimer function with passing 30 as maxTime value
   let randomObj = words[Math.floor(Math.random() * words.length)]; // getting random object from words
@@ -33,7 +35,7 @@ const initGame = () => {
   correctWord =  randomObj.word.toLowerCase(); //passing random word to correctWord
   inputField.value = "";
   inputField.setAttribute("maxlength", correctWord.length); // setting input maxlength attr value to word length 
-  console.log(randomObj);
+  
 }
 initGame();
 
