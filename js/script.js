@@ -15,6 +15,7 @@ const initTimer = maxTime => {
     }
     clearInterval(timer);
     alert('Faltam! $(userWord.toUpperCase()) para digitar a palavra');
+    initGame(); // calling initGame function, so the game restart
   }, 1000);
   
 }
