@@ -13,6 +13,8 @@ const initTimer = maxTime => {
         maxTime--; // decrement maxTime by -1
         timeText.innerText = maxTime;   
     }
+    clearInterval(timer);
+    alert('Faltam! $(userWord.toUpperCase()) para digitar a palavra');
   }, 1000);
   
 }
