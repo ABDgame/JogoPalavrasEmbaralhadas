@@ -1,5 +1,6 @@
 const wordText = document.querySelector(".word"),
-hintText = document.querySelector(".hint span");
+hintText = document.querySelector(".hint span"),
+refreshBtn = document.querySelector(".refresh-word");  
 
 const initGame = () => {
   let randomObj = words[Math.floor(Math.random() * words.length)]; // getting random object from words
@@ -11,6 +12,6 @@ const initGame = () => {
   }
   wordText.innerText = wordArray.join(""); // passing shuffled word as word text
   hintText.innerText = randomObj.hint; // passing random object hint as hint text
-  console.log(wordArray, randomObj);
+  console.log(randomObj);
 }
 initGame();
