@@ -1,141 +1,141 @@
 const words = [
   {
-    word: "APITO",
+    word: "APITO"
   },
   {
-    word: "ANJO",
+    word: "ANJO"
   },
   {
-    word: "AVIÃO",
+    word: "AVIÃO"
   },
   {
-    word: "ÁRVORE",
+    word: "ÁRVORE"
   },
   {
-    word: "AGULHA",
+    word: "AGULHA"
   },
   {
-    word: "ABACAXI",
+    word: "ABACAXI"
   },
   {
-    word: "ARANHA",
+    word: "ARANHA"
   },
   {
-    word: "ANEL",
+    word: "ANEL"
   },
   {
-    word: "ABELHA",
+    word: "ABELHA"
   },
   {
-    word: "ABACATE",
+    word: "ABACATE"
   },
   {
-    word: "BULE",
+    word: "BULE"
   },
   {
-    word: "BOI",
+    word: "BOI"
   },
   {
-    word: "BEBE",
+    word: "BEBÊ"
   },
   {
-    word: "BOCA",
+    word: "BOCA"
   },
   {
-    word: "BORBOLETA",
+    word: "BORBOLETA"
   },
   {
-    word: "BALA",
+    word: "BALA"
   },
   {
-    word: "BONECA",
+    word: "BONECA"
   },
   {
-    word: "BATATA",
+    word: "BATATA"
   },
   {
-    word: "BOLO",
+    word: "BOLO"
   },
   {
-    word: "BALEIA",
+    word: "BALEIA"
   },
   {
-    word: "CABIDE",
+    word: "CABIDE"
   },
   {
-    word: "CAIXA",
+    word: "CAIXA"
   },
   {
-    word: "CAMELO",
+    word: "CAMELO"
   },
   {
-    word: "CAMA",
+    word: "CAMA"
   },
   {
-    word: "CAJU",
+    word: "CAJU"
   },
   {
-    word: "COPO",
+    word: "COPO"
   },
   {
-    word: "CADEADO",
+    word: "CADEADO"
   },
   {
-    word: "CORAÇÃO",
+    word: "CORAÇÃO"
   },
   {
-    word: "DAMA",
+    word: "DAMA"
   },
   {
-    word: "DINHEIRO",
+    word: "DINHEIRO"
   },
   {
-    word: "DIAMANTE",
+    word: "DIAMANTE"
   },
   {
-    word: "DRAGÃO",
+    word: "DRAGÃO"
   },
   {
-    word: "DOCE",
+    word: "DOCE"
   },
   {
-    word: "DEDO",
+    word: "DEDO"
   },
   {
-    word: "DENTE",
+    word: "DENTE"
   },
   {
-    word: "DADO",
+    word: "DADO"
   },
   {
-    word: "DEDAL",
+    word: "DEDAL"
   },
   {
-    word: "EMA",
+    word: "EMA"
   },
   {
-    word: "ESCOVA",
+    word: "ESCOVA"
   },
   {
-    word: "ESCAMA",
+    word: "ESCAMA"
   },
   {
-    word: "ESTRELA",
+    word: "ESTRELA"
   },
   {
-    word: "ELEFANTE",
+    word: "ELEFANTE"
   },
   {
-    word: "ESMALTE",
+    word: "ESMALTE"
   },
   {
-    word: "ENXADA",
+    word: "ENXADA"
   },
   {
     word: "ESCADA"
   },
   {
     word: "ESCOLA"
-  }
-  
+  },
+ 
 ]
