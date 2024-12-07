@@ -1,15 +1,23 @@
 const wordText = document.querySelector(".word"),
 hintText = document.querySelector(".hint span"),
+timeText = document.querySelector(".hint span"),  
+inputField = document.querySelector("input"),  
 refreshBtn = document.querySelector(".refresh-word"),
 checkBtn = document.querySelector(".check-word");
 
 let correctWord. timer;
 
-const initTimer = () => {
-  timer = setInterval(())
+const initTimer = maxTime=> {
+  timer = setInterval(() => {
+    if(maxTime > 0){
+        maxTime--;
+      
+    }
+  }, 1000);
   
 }
 const initGame = () => {
+  initTimer(30); // calling initTimer function with passing 30 as maxTime value
   let randomObj = words[Math.floor(Math.random() * words.length)]; // getting random object from words
   let wordArray = randomObj.word.split(""); //splitting each letter of random word
   for (let i = wordArray.length -1; i > 0; i--) {
