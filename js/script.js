@@ -18,7 +18,8 @@ const initGame = () => {
 initGame();
 
 const checkWord = () => {
-  let userWord = 
+  let userWord = inputField.value.toLocaleLowerCase();
+  console.log(userWord);
 }
 refreshBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);
