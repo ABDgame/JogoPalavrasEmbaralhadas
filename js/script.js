@@ -16,6 +16,7 @@ const initGame = () => {
   wordText.innerText = wordArray.join(""); // passing shuffled word as word text
   hintText.innerText = randomObj.hint; // passing random object hint as hint text
   correctWord =  randomObj.word.toLowerCase(); //passing random word to correctWord
+  inputField
   console.log(randomObj);
 }
 initGame();
@@ -29,7 +30,7 @@ const checkWord = () => {
   
   //if above two if conditions are falled then show congrats alert because user word is correct
   alert('Parabéns $(userWord.toUpperCase())é a palavra correta');
-  
+  initGame();
 }
 refreshBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);
