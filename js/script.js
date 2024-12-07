@@ -15,3 +15,5 @@ const initGame = () => {
   console.log(randomObj);
 }
 initGame();
+
+refreshBtn.addEventListener("click", initGame);
