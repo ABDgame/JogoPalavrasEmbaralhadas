@@ -3,9 +3,12 @@ hintText = document.querySelector(".hint span"),
 refreshBtn = document.querySelector(".refresh-word"),
 checkBtn = document.querySelector(".check-word");
 
-let correctWord;
+let correctWord. timer;
 
-const initTimer = ()
+const initTimer = () => {
+  timer = setInterval(())
+  
+}
 const initGame = () => {
   let randomObj = words[Math.floor(Math.random() * words.length)]; // getting random object from words
   let wordArray = randomObj.word.split(""); //splitting each letter of random word
