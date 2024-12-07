@@ -15,13 +15,16 @@ const initGame = () => {
   }
   wordText.innerText = wordArray.join(""); // passing shuffled word as word text
   hintText.innerText = randomObj.hint; // passing random object hint as hint text
+  correctWord =  randomObj.word.toLowerCase(); //passing random word to correctWord
   console.log(randomObj);
 }
 initGame();
 
 const checkWord = () => {
-  let userWord = inputField.value.toLocaleLowerCase();
-  console.log(userWord);
+  let userWord = inputField.value.toLocaleLowerCase(); //getting user value
+  if(userWord !== correctWord) return alert('Não $(userWord)é a palavra correta');
+  alert('Parabéns $(userWord)é a palavra correta');
+  
 }
 refreshBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);
