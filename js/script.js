@@ -1,17 +1,17 @@
 const wordText = document.querySelector(".word"),
 hintText = document.querySelector(".hint span"),
-timeText = document.querySelector(".hint time"),  
+timeText = document.querySelector(".time"),  
 inputField = document.querySelector("input"),  
 refreshBtn = document.querySelector(".refresh-word"),
 checkBtn = document.querySelector(".check-word");
 
-let correctWord. timer;
+let correctWord, timer;
 
-const initTimer = maxTime=> {
+const initTimer = maxTime => {
   timer = setInterval(() => {
     if(maxTime > 0){
-        maxTime--;
-      
+        maxTime--; // decrement maxTime by -1
+        timeText.innerText = maxTime;   
     }
   }, 1000);
   
