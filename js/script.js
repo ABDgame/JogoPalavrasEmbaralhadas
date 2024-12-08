@@ -1,6 +1,6 @@
 const wordText = document.querySelector(".word"),
 hintText = document.querySelector(".hint span"),
-timeText = document.querySelector(".time"),  
+timeText = document.querySelector(".time b"),  
 inputField = document.querySelector("input"),  
 refreshBtn = document.querySelector(".refresh-word"),
 checkBtn = document.querySelector(".check-word");
@@ -11,43 +11,42 @@ const initTimer = maxTime => {
   clearInterval(timer);
   timer = setInterval(() => {
     if(maxTime > 0){
-        maxTime--; // decrement maxTime by -1
+        maxTime--; // diminuir maxTime em -1
         return timeText.innerText = maxTime;   
     }
     clearInterval(timer);
-    alert('Faltam! $(userWord.toUpperCase()) para digitar a palavra');
-    initGame(); // calling initGame function, so the game restart
+    alert(`Faltam! ${correctWord.toUpperCase()} para digitar a palavra`);
+    initGame(); // chamando a função initGame, para que o jogo reinicie
   }, 1000);
   
 }
 
 const initGame = () => {
-  initTimer(30); // calling initTimer function with passing 30 as maxTime value
-  let randomObj = words[Math.floor(Math.random() * words.length)]; // getting random object from words
-  let wordArray = randomObj.word.split(""); //splitting each letter of random word
-  for (let i = wordArray.length -1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1)); //getting random number
-      // shuffling and swiping wordArray letters randomly
+  initTimer(30); // chamando a função initTimer passando 30 como valor maxTime
+  let randomObj = words[Math.floor(Math.random() * words.length)]; // obtendo objeto aleatório de palavras
+  let wordArray = randomObj.word.split(""); //dividindo cada letra de palavra aleatória
+  for (let i = wordArray.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1)); //obtendo número aleatório
+      // embaralhando e passando letras do wordArray aleatoriamente
       [wordArray[i], wordArray[j]] = [wordArray[j], wordArray[i]];
   }
-  wordText.innerText = wordArray.join(""); // passing shuffled word as word text
-  hintText.innerText = randomObj.hint; // passing random object hint as hint text
-  correctWord =  randomObj.word.toLowerCase(); //passing random word to correctWord
+  wordText.innerText = wordArray.join(""); // passando palavra embaralhada como texto de palavra
+  hintText.innerText = randomObj.hint; // passando dica de objeto aleatório como texto de dica
+  correctWord =  randomObj.word.toLowerCase(); // passando palavra aleatória para correctWord
   inputField.value = "";
-  inputField.setAttribute("maxlength", correctWord.length); // setting input maxlength attr value to word length 
-  
+  inputField.setAttribute("maxlength", correctWord.length); // definindo o valor de atributo maxlength de entrada para o comprimento da palavra 
 }
 initGame();
 
 const checkWord = () => {
-  let userWord = inputField.value.toLocaleLowerCase(); //getting user value
-  if(!userWord) return alert('Por favor digite a palavra correta'); //if user didn't enter anything
+  let userWord = inputField.value.toLocaleLowerCase(); //obtendo valor do usuário
+  if(!userWord) return alert("Por favor digite a palavra correta"); //se o usuário não digitou nada
   
-  //if user word doesn't matched with the correct word
-  if(userWord !== correctWord) return alert('Não $(userWord)é a palavra correta');
+  //se a palavra do usuário não corresponder à palavra correta
+  if(userWord !== correctWord) return alert(`Ixii! ${userWord} não é a palavra correta`);
   
-  //if above two if conditions are falled then show congrats alert because user word is correct
-  alert('Parabéns $(userWord.toUpperCase())é a palavra correta');
+  //mostra alerta de parabéns porque a palavra do usuário está correta
+  alert(`Parabéns ${userWord.toUpperCase()} é a palavra correta`);
   initGame();
 }
 refreshBtn.addEventListener("click", initGame);
