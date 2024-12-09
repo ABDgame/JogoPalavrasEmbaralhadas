@@ -1,141 +1,175 @@
 const words = [
   {
-    word: "APITO"
+    word: "APITO",
+    hint: " Faz barulho "
   },
   {
-    word: "ANJO"
+    word: "AVIÃO",
+    hint: " É uma aeronave "
   },
   {
-    word: "AVIÃO"
+    word: "ÁRVORE",
+    hint: " Tem na natureza "
+  {
+    word: "AGULHA",
+    hint: " Usado pelas costureiras "
   },
   {
-    word: "ÁRVORE"
+    word: "ABACAXI",
+    hint: "É uma fruta "
   },
   {
-    word: "AGULHA"
+    word: "ARANHA",
+    hint: "É um animal"
   },
   {
-    word: "ABACAXI"
+    word: "ANEL",
+    hint: "Usa no dedo"
   },
   {
-    word: "ARANHA"
+    word: "ABELHA", 
+    hint: "É um animal"  
   },
   {
-    word: "ANEL"
+    word: "ABACATE",
+    hint: "É uma fruta"
   },
   {
-    word: "ABELHA"
+    word: "BULE",
+    hint: "Tem café"
   },
   {
-    word: "ABACATE"
+    word: "BOI",
+    hint: "É um bovino"
   },
   {
-    word: "BULE"
+    word: "BEBÊ",
+    hint: "É uma criança"
   },
   {
-    word: "BOI"
+    word: "BOCA",
+    hint: "Parte do corpo humano"
   },
   {
-    word: "BEBÊ"
+    word: "BORBOLETA",
+    hint: "É um inseto"
   },
   {
-    word: "BOCA"
+    word: "BALA",
+    hint: "É um doce"
   },
   {
-    word: "BORBOLETA"
+    word: "BONECA",
+    hint: "É um brinquedo"
   },
   {
-    word: "BALA"
+    word: "BATATA",
+    hint: "É um legume"
   },
   {
-    word: "BONECA"
+    word: "BOLO",
+    hint: "É um doce"
   },
   {
-    word: "BATATA"
+    word: "BALEIA",
+    hint: "É um animal aquático"
   },
   {
-    word: "BOLO"
+    word: "CABIDE",
+    hint: "Tem no guarda-roupa"
   },
   {
-    word: "BALEIA"
+    word: "CAIXA",
+    hint: "É de papelão"
   },
   {
-    word: "CABIDE"
+    word: "CAMELO",
+    hint: "É um animal do deserto"
   },
   {
-    word: "CAIXA"
+    word: "CAMA",
+    hint: "Tem no quarto"
   },
   {
-    word: "CAMELO"
+    word: "CAJU",
+    hint: "É uma fruta"
   },
   {
-    word: "CAMA"
+    word: "COPO",
+    hint: "Tem no armário da cozinha"
   },
   {
-    word: "CAJU"
+    word: "CADEADO",
+    hint: "Fica trancado ou aberto"
   },
   {
-    word: "COPO"
+    word: "CORAÇÃO",
+    hint: "Parte do corpo humano"
   },
   {
-    word: "CADEADO"
+    word: "DINHEIRO",
+    hint: "Tem no banco"
   },
   {
-    word: "CORAÇÃO"
+    word: "DIAMANTE",
+    hint: "Vale muito dinheiro"
   },
   {
-    word: "DAMA"
+    word: "DRAGÃO",
+    hint: "É um animal mitológico"
   },
   {
-    word: "DINHEIRO"
+    word: "DOCE",
+    hint: "Tem açucar"
+    
   },
   {
-    word: "DIAMANTE"
+    word: "DEDO",
+    hint: "Parte do corpo humano"
   },
   {
-    word: "DRAGÃO"
+    word: "DENTE",
+    hint: "Parte do corpo humano"
   },
   {
-    word: "DOCE"
+    word: "DADO",
+    hint: "Peça de um jogo"
   },
   {
-    word: "DEDO"
+    word: "DEDAL",
+    hint: "Costureira usa"
   },
   {
-    word: "DENTE"
+    word: "EMA",
+    hint: "É uma ave"
   },
   {
-    word: "DADO"
+    word: "ESCOVA",
+    hint: "Tem no banheiro"
   },
   {
-    word: "DEDAL"
+    word: "ESCAMA",
+    hint: "Parte do corpo de alguns peixes"
   },
   {
-    word: "EMA"
+    word: "ESTRELA",
+    hint: "Tem no céu" 
   },
   {
-    word: "ESCOVA"
+    word: "ELEFANTE",
+    hint: "É um mamífero grande."
   },
   {
-    word: "ESCAMA"
+    word: "ENXADA",
+    hint: "Ferramenta para trabalho de jardinagem."
   },
   {
-    word: "ESTRELA"
+    word: "ESCADA",
+    hint: "Meio de acesso."
   },
   {
-    word: "ELEFANTE"
-  },
-  {
-    word: "ESMALTE"
-  },
-  {
-    word: "ENXADA"
-  },
-  {
-    word: "ESCADA"
-  },
-  {
-    word: "ESCOLA"
+    word: "ESCOLA",
+    hint: "Ambiente de aprendizagem."
   },
  
 ]
