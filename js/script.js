@@ -17,8 +17,7 @@ const initTimer = maxTime => {
     clearInterval(timer);
     alert(`Faltam! ${correctWord.toUpperCase()} para digitar a palavra`);
     initGame(); // chamando a função initGame, para que o jogo reinicie
-  }, 1000);
-  
+  }, 1000); 
 }
 
 const initGame = () => {
