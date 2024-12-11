@@ -10,6 +10,7 @@ const words = [
   {
     word: "ÁRVORE",
     hint: " Tem na natureza "
+  },   
   {
     word: "AGULHA",
     hint: " Usado pelas costureiras "
